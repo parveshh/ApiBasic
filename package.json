@@ -5,6 +5,7 @@
   "main": "build/server.js",
   "scripts": {
     "postinstall": "npm run tsc",
+    "start": "node build/server.js",
     "tsc": "node_modules/.bin/tsc -project tsconfig.json",
     "test": "mocha build/tests/*.spec.js"
   },
